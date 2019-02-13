@@ -6,6 +6,6 @@ using UnityEngine.SceneMangement;
 public class LoadScreenOnClick : MonoBehaviour {
 
 	public void LoadByIndex(int sceneIndex){
-			SceneManger.LoadScene(sceneIndex);
+			SceneManager.LoadScene(sceneIndex);
 	}
 }
